@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "paytm login application",
+        "description": "",
+        "id": "application-launch;paytm-login-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106671839,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Desired Capabilities and device are ready",
+            "match": {
+              "location": "PaytmApplicationLogin.Desired_Capabilities_device()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55286,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Application lauched on device succesfully",
+            "match": {
+              "location": "PaytmApplicationLogin.application_lauched_on_device_succesfully()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42967,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user select the lanuage",
+            "match": {
+              "location": "PaytmApplicationLogin.user_select_the_lanuage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46272,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter Phone Number",
+            "match": {
+              "location": "PaytmApplicationLogin.user_enter_Phone_Number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51080,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on login button",
+            "match": {
+              "location": "PaytmApplicationLogin.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45972,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify that user login correctly",
+            "match": {
+              "location": "PaytmApplicationLogin.verify_that_user_login_correctly()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Application launch",
+    "description": "",
+    "id": "application-launch",
+    "keyword": "Feature",
+    "uri": "C:/Users/himanshuagrawal/Desktop/cucumber/Project/src/main/java/Feature/mobileApp.feature"
+  }
+]

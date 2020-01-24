@@ -54,36 +54,42 @@ formatter.match({
   "location": "PaytmApplicationLogin.Desired_Capabilities_device()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 106671839,
+  "status": "passed"
 });
 formatter.match({
   "location": "PaytmApplicationLogin.application_lauched_on_device_succesfully()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 55286,
+  "status": "passed"
 });
 formatter.match({
   "location": "PaytmApplicationLogin.user_select_the_lanuage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 42967,
+  "status": "passed"
 });
 formatter.match({
   "location": "PaytmApplicationLogin.user_enter_Phone_Number()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 46272,
+  "status": "passed"
 });
 formatter.match({
   "location": "PaytmApplicationLogin.user_click_on_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 51080,
+  "status": "passed"
 });
 formatter.match({
   "location": "PaytmApplicationLogin.verify_that_user_login_correctly()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 45972,
+  "status": "passed"
 });
 });

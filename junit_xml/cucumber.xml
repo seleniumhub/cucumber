@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
-<testcase classname="web Application launch" name="Web login application" time="0">
-<system-out><![CDATA[Given Browser open..........................................................skipped
+<testcase classname="Application launch" name="paytm login application" time="0">
+<system-out><![CDATA[Given Desired Capabilities and device are ready.............................skipped
+When Application lauched on device succesfully..............................skipped
+Then user select the lanuage................................................skipped
+Then user enter Phone Number................................................skipped
+And user click on login button..............................................skipped
+And verify that user login correctly........................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>
